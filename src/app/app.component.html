@@ -1,4 +1,7 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<h1>Minha lista</h1>
+<a [routerLink]="['/']">HOME</a>
+<a [routerLink]="['/list']">LISTA</a>
+<hr />
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
