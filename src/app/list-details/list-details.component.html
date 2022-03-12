@@ -1,7 +1,12 @@
 <br /><br />
 <h2>[{{ item.codigo }}] - {{ item.materia }}</h2>
 <a [routerLink]="['/list']">Voltar</a>
-<br /><br />
+<br />
+<p>
+  <strong>Dia:</strong> {{ item.dia }} - <strong>Horário:</strong>
+  {{ item.horario }}
+</p>
+<br />
 <h3>Ementa</h3>
 <div>{{ item.ementa }}</div>
 <br /><br />
