@@ -1,5 +1,8 @@
-<h2>Item da Lista</h2>
+<h2>[{{ item.codigo }}] - {{ item.materia }}</h2>
 <a [routerLink]="['/list']">Voltar</a>
-<h3>ID</h3>
-<div>{{ item.id }}</div>
-<div>{{ item.text }}</div>
+<br /><br />
+<h3>Ementa</h3>
+<div>{{ item.ementa }}</div>
+<br /><br />
+<h3>Objetivos</h3>
+<div>{{ item.objetivos }}</div>
